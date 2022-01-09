@@ -1,0 +1,8 @@
+--------------- github login through ssh-key  ---------------
+- login to the linux
+- ssh-keygen 
+
+cd /home/jasson/.ssh/
+cat id_rsa.pub
+copy public key and go to the github.com - setting - add
+
