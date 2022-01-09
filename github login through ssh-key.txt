@@ -15,3 +15,6 @@ origin	https://github.com/Jasson-AXE/Devops-how-to-install.git (push)
 git remote set-url origin git@github.com:Jasson-AXE/Devops-how-to-install.git
 git remote -v - for checking thats everything is fine
 
+or 
+
+git clone git@github.com:Jasson-AXE/Devops-how-to-install.git
