@@ -1,0 +1,22 @@
+--------  HOW TO INSTALL JENKINS ------------------
+sudo apt update
+sudo apt install openjdk-8-jdk
+sudo apt install ca-certificates - if you have a problem with it
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install jenkins
+
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+
+sudo ufw allow 8080
+
+sudo ufw allow OpenSSH
+sudo ufw enable
+
+sudo ufw status
+
+http://your_server_ip_or_domain:8080
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
