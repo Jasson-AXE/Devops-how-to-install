@@ -4,5 +4,14 @@
 
 cd /home/jasson/.ssh/
 cat id_rsa.pub
-copy public key and go to the github.com - setting - add
+copy public key and go to the github.com - setting - SSH and GPG keys - New SSH key - add your ssh pub key
+
+How to change HTTPS key [Git-token-key] to SSH key
+cd Devops-how-to-install/
+git remote -v
+origin	https://github.com/Jasson-AXE/Devops-how-to-install.git (fetch)
+origin	https://github.com/Jasson-AXE/Devops-how-to-install.git (push)
+
+git remote set-url origin git@github.com:Jasson-AXE/Devops-how-to-install.git
+git remote -v - for checking thats everything is fine
 
