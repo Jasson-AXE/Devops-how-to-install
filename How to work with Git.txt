@@ -8,3 +8,4 @@ sudo git clone https://github.com/Jasson-AXE/Devops-how-to-install.git - clone r
 git init - make git reposytory
 git status - status
 git pull - get files from github repository
+git push origin - send commit file with changes to Github repository
