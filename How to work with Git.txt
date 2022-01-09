@@ -7,3 +7,4 @@ sudo apt-get install git
 sudo git clone https://github.com/Jasson-AXE/Devops-how-to-install.git - clone reposytory from git
 git init - make git reposytory
 git status - status
+git pull - get files from github repository
