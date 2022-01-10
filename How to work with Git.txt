@@ -1,4 +1,4 @@
-#Version 3.1
+#Version 3.2
 ---------- HOW TO INSTALL GIT -----------------------------
 
 sudo apt-get install git
@@ -24,3 +24,12 @@ git checkout main
 git merge name of branch
 
 --------------------------------------------------------------
+
+----------------- how to see any commit ----------------------
+git checkout 'commit hash'
+examle: git checkout fa63d8468db683794ffb7e37baa8ecf5dd24441b
+
+git checkout main - go back to main
+git commit --amend - make changes without commiting
+
+ 
