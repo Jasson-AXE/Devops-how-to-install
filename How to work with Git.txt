@@ -10,3 +10,9 @@ git status - status
 git add filename or * - add new file to commit stage 
 git pull - get files from github repository
 git push origin - send commit file with changes to Github repository
+
+---- how to make new brench -----
+git branch - check git branch
+git branch branch name
+git checkout branch name - switch to branch
+git branch -d branch name - delete branch
