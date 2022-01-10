@@ -1,4 +1,4 @@
-#Version 3.2
+#Version 3.2.1
 ---------- HOW TO INSTALL GIT -----------------------------
 
 sudo apt-get install git
@@ -31,5 +31,5 @@ examle: git checkout fa63d8468db683794ffb7e37baa8ecf5dd24441b
 
 git checkout main - go back to main
 git commit --amend - make changes without commiting
-
- 
+git reset --hard HEAD~ - delete and return to previous version of commit
+git reset --soft HEAD~ 
