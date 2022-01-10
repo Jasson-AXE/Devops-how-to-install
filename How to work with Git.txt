@@ -1,4 +1,4 @@
-#Version 3.2.1
+#Version 3.2.2
 ---------- HOW TO INSTALL GIT -----------------------------
 
 sudo apt-get install git
@@ -11,7 +11,8 @@ git status - status
 git add filename or * - add new file to commit stage 
 git pull - get files from github repository
 git push origin - send commit file with changes to Github repository
-
+git push --set-upstream origin name of branch - download new branch to GitHub
+git push origin --delete name of branch - delete branch from GitHub remoutly
 ---- how to make new brench ------
 git branch - check git branch
 git branch branch name
@@ -33,3 +34,4 @@ git checkout main - go back to main
 git commit --amend - make changes without commiting
 git reset --hard HEAD~ - delete and return to previous version of commit
 git reset --soft HEAD~ 
+
