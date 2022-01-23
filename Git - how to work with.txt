@@ -8,7 +8,7 @@ sudo apt-get install git
 sudo git clone https://github.com/Jasson-AXE/Devops-how-to-install.git - clone reposytory from git
 git init - make git repository
 git status - status
-git add filename or * - add new file to commit stage 
+git add filename or * - add new file to commit stage
 git pull - get files from github repository
 git push origin - send commit file with changes to Github repository
 git push --set-upstream origin name of branch - download new branch to GitHub
@@ -26,6 +26,9 @@ git merge name of branch
 
 --------------------------------------------------------------
 
+git remote add origin git@github.com:Jasson-AXE/Terraform-works.git
+git push origin master
+
 ----------------- how to see any commit ----------------------
 git checkout 'commit hash'
 examle: git checkout fa63d8468db683794ffb7e37baa8ecf5dd24441b
@@ -33,5 +36,4 @@ examle: git checkout fa63d8468db683794ffb7e37baa8ecf5dd24441b
 git checkout main - go back to main
 git commit --amend - make changes without commiting
 git reset --hard HEAD~ - delete and return to previous version of commit
-git reset --soft HEAD~ 
-
+git reset --soft HEAD~
